@@ -1,0 +1,54 @@
+.btn {
+    display: inline-block;
+    position: relative;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background: $color-grey;
+    font-family: $font-family--base;
+    font-size: $font-size--m;
+    line-height: $line-height--m;
+    color: $color-white;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+        opacity: 0.9;
+    }
+
+    &:disabled,
+    &.is-disabled {
+        &,
+        &:hover,
+        &:active {
+            opacity: 0.5;
+            cursor: default;
+        }
+    }
+}
+
+// Sizes
+//---------------------------------
+
+.btn {
+    &.size-s {
+        padding: 7px 12px;
+        font-size: $font-size--s;
+        line-height: $line-height--s;
+    }
+
+    &.size-l {
+        padding: 9px 20px;
+        font-size: $font-size--l;
+        line-height: $line-height--l;
+    }
+}
+
