@@ -1,4 +1,4 @@
-import { isNumberInteger, closest } from './polyfills';
+import { isNumberInteger, closest, findIndex } from './polyfills';
 
 /**
  * Init polyfills
@@ -6,4 +6,5 @@ import { isNumberInteger, closest } from './polyfills';
 export const initPolyfills = () => {
     isNumberInteger();
     closest();
+    findIndex();
 };

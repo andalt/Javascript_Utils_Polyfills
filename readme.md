@@ -1,7 +1,5 @@
 # Набор javascript утилит (сниппетов) и полифиллов
 
-[gitlab source](http://gitlab.smarthead.ru/frontend/Javascript_utils.git)
-
 Набор наиболее часто используемых функций в javascript
 
 ## Папки проекта
